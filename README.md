@@ -16,4 +16,16 @@ It then loops through each row of the dataset and uses a set of conditional stat
 ![Stock Market For Loop](https://github.com/SethBoswell/stocks-analysis/blob/main/Resources/VBA_Challenge_For_Loop.png)
 
 ### Refactoring
-Originally, the code operated using a double for-loop -- one loop to go through each unique stock ticker and one loop to go through each row in the dataset. However, I refactored the code to increase it's efficiency and allow for larger datasets to be run in a reasonable amount of time. To accomplish this task, I reduced the use of a double for-loop to a single for-loop, which you can see in the last image from the prior paragraph. This was accomplished by using a 
+Originally, the code operated using a double for-loop -- one loop to go through each unique stock ticker and one loop to go through each row in the dataset. However, I refactored the code to increase it's efficiency and allow for larger datasets to be run in a reasonable amount of time. To accomplish this task, I reduced the use of a double for-loop to a single for-loop, which you can see in the last image from the prior paragraph. This was accomplished by using a integer variable called "tickerIndex," which was created in the second image from the previous paragraph. I gave this variable a starting value of zero and then increased it's value by one every time the code found the last row of a particular stock ticker. Thus, this variable allowed me to reference the particular stock ticker the code was currently working through and populate all of the arrays with the correct values for that particular stock. You can see the code populating the arrays based on the current "tickerIndex" value in the last image in the previous paragraph.
+
+## Results
+### Stock Performance Results
+Below are the results of my stock analysis for both 2017 and 2018. 
+
+![Stock Market 2017 Results](https://github.com/SethBoswell/stocks-analysis/blob/main/Resources/VBA_Challenge_2017_Results.png)
+
+![Stock Market 2018 Results](https://github.com/SethBoswell/stocks-analysis/blob/main/Resources/VBA_Challenge_2018_Results.png)
+
+Based on the above results, 
+
+
