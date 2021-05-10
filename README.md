@@ -1,4 +1,4 @@
-# stocks-analysis
+# Stock Analysis Projects
 VBA of Wallstreet Project Folder
 ## Overview of Project
 In this project, I analyze the performance of 12 individual stocks in 2017 and 2018 for my client, Steve, to provide him with potentially lucrative investment options. I used VBA to analyze a dataset for this basket of stocks, which consisted of daily values for the stock's trading volume as well as price information (high, low, open, close, and adjusted close). To help Steve identify the best stocks from this basket, I calculated the total annual trading volume and annual return for each stock. Additionally, I refactored the code to improve performance, which involved reducing the use of a double for-loop to a single one. In the following sections, I will outline my methodology for constructing the refactored code, discuss the results of my analysis, and provide a brief summary of the advantages and disadvantages of refactoring code. 
